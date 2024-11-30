@@ -1,0 +1,35 @@
+body {
+    /* background-color: rgba(0, 128, 0, 0.2); */
+    color: #000;
+  }
+
+  .container {
+    margin: 50px;
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+
+  .form-control,
+  .form-control:focus {
+    background-color: #fff;
+    color: #0f0;
+    border: 1px solid #0f0;
+  }
+
+  .btn {
+    background-color: rgb(108, 232, 114);
+    color: black;
+    border: none;
+  }
+
+  .btn:hover {
+    background-color: #0d0;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  .card {
+    background-color: rgba(0, 128, 0, 0.2);
+  }
