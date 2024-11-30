@@ -112,7 +112,6 @@ const TeachOnEkLavya = () => {
         
     </div>
 </section>
-
 </div> 
     </>
   )

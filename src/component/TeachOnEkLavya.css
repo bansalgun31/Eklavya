@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    height: 100vh; /* Full viewport height */
+    height: 100%; /* Full viewport height */
     display: flex; /* Enable flexbox */
     flex-direction: column; /* Stack header and main content */
 }
@@ -31,7 +31,7 @@ body {
 /* Dashboard container */
 .dashboard-container {
     display: flex;
-    height: calc(100vh); 
+    height: 100%; 
 }
 
 /* Sidebar styles */
@@ -90,7 +90,7 @@ body {
 
     /* Flexbox to center profile section */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 

@@ -1,6 +1,6 @@
 #newsletter{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     background-image: url("../assets/feedback.jpg");
