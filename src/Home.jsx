@@ -6,12 +6,12 @@ import FeedBack from './component/FeedBack'
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Banner/>
       <Feature/>
       <TopCourses/>
       <FeedBack/>
-    </div>
+    </>
   )
 }
 

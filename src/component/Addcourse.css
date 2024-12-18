@@ -1,35 +1,66 @@
-body {
-    /* background-color: rgba(0, 128, 0, 0.2); */
-    color: #000;
-  }
+.upload-course-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #f9f9f9;
+}
 
-  .container {
-    margin: 50px;
-    padding-right: 250px;
-    padding-left: 250px;
-  }
+.upload-course-container h2 {
+  font-size: 2rem;
+  color: #088178;
+  margin-bottom: 1rem;
+}
 
-  .form-control,
-  .form-control:focus {
-    background-color: #fff;
-    color: #0f0;
-    border: 1px solid #0f0;
-  }
+.upload-course-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
 
-  .btn {
-    background-color: rgb(108, 232, 114);
-    color: black;
-    border: none;
-  }
+.upload-course-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: #555;
+}
 
-  .btn:hover {
-    background-color: #0d0;
-  }
+.upload-course-form input,
+.upload-course-form textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
 
-  textarea {
-    resize: none;
-  }
+.upload-course-form textarea {
+  resize: none;
+  height: 100px;
+}
 
-  .card {
-    background-color: rgba(0, 128, 0, 0.2);
-  }
+.upload-course-form .submit-btn {
+  padding: 0.75rem;
+  font-size: 1rem;
+  background: #088178;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.upload-course-form .submit-btn:hover {
+  background: #066f64;
+}
+
+.upload-course-form input[type="file"] {
+  padding: 0;
+}

@@ -3,10 +3,10 @@ import Header from './component/Header'
 import Home from './Home'
 import Login from './component/Login'
 import SignUp from './component/SignUp'
-import TeachOnEkLavya from './component/TeachOnEkLavya'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AddCourses from './component/Addcourses'
-import "./App.css"
+import AddCourses from './component/AddCourse'
+import TeacherDashboard from './component/TeacherDashboard'
+import LecturePage from "./component/LecturePage";
 
 function App() {
 
@@ -18,8 +18,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/teach-on-eklavya" element={<TeachOnEkLavya />} />
+        <Route path="/teach-on-eklavya" element={<TeacherDashboard />} />
         <Route path="/addCourse" element={<AddCourses />} />
+        <Route path="/lecture/:id" element={<LecturePage />} />
         
       </Routes>
       <Footer />

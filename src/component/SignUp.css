@@ -1,77 +1,94 @@
+/* General reset */
 body {
-    font-family: Arial, sans-serif;
-    background: url('eklavya.jpg') no-repeat center center fixed; /* Set background image */
-    background-size: cover; /* Cover the entire screen */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgba(0, 128, 0, 0.2);
-  }
-  
-  .registration-container {
-    background-color: rgba(255, 255, 255, 0.543); /* Light grey background */
-    padding: 40px;
-    border-radius: 8px;
-    border: 2px solid #00ff00; /* Green border */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
-    width: 100%;
-    max-width: 420px;
-    margin: auto; /* Center container equally from left and right */
-  }
-  
-  h2 {
-    color: black; /* Black text for header */
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    color: black; /* Black text for labels */
-  }
-  
-  input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #555;
-    border-radius: 5px;
-    background-color: white; /* White background for input */
-    color: black; /* Black text */
-    font-size: 14px;
-  }
-  
-  input:focus {
-    outline: none;
-    border-color: #00ff00; /* Green border on focus */
-    box-shadow: 0 0 5px #00ff00; /* Glow effect */
-  }
-  
-  button {
-    width: 100%;
-    padding: 10px;
-    background-color: #00ff0090; /* Green background for button */
-    color: #1c1c1c; /* Greyish black text for contrast */
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #00cc00; /* Darker green on hover */
-  }
-  
-  #message {
-    margin-top: 15px;
-    font-size: 14px;
-    color: red; /* Red for error messages */
-    text-align: center;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* Container styling */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #088178, #66cdaa);
+}
+
+/* Sign-up box */
+.signup-box {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Heading */
+.signup-box h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #088178;
+}
+
+/* Sign-up button */
+.signup-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: #088178;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.signup-btn:hover {
+  background: #06685e;
+}
+
+/* Extra links */
+.extra-links {
+  margin-top: 1.5rem;
+}
+
+.extra-links a {
+  color: #088178;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.extra-links a:hover {
+  color: #06685e;
+}

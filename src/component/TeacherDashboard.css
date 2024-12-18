@@ -1,0 +1,117 @@
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+  }
+  
+  .dashboard-container {
+    padding: 2rem;
+    text-align: center;
+    background: #fdfdfd;
+  }
+  
+  /* Profile Section */
+  .profile-section {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .profile-section p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Action Buttons */
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .action-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-btn {
+    background-color: #088178;
+    color: white;
+  }
+  
+  .schedule-btn {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  .action-btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Lecture Grid */
+  .lecture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  /* Lecture card styling */
+  .pre {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .pre img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .des {
+    padding: 1rem;
+  }
+  
+  .des span {
+    font-size: 0.9rem;
+    color: #088178;
+    font-weight: bold;
+  }
+  
+  .des h5 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .star {
+    margin: 0.5rem 0;
+  }
+  
+  .des h4 {
+    font-size: 1rem;
+    color: #222;
+    font-weight: bold;
+  }
+  
